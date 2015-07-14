@@ -1,0 +1,364 @@
+<!DOCTYPE htmls>
+
+<html>
+<head>
+<title>LaunchPad Form</title>
+</head>
+
+<body>
+<form action="action_page.php" method="post">
+	
+	<div><h3><label for="stage">Stage:</label></h3></div>
+		<input type="radio" name="stage" value="1" checked>Idea</input><br>
+		<input type="radio" name="stage" value="2">Prototype</input><br>
+		<input type="radio" name="stage" value="3">Minimum Viable Product</input><br>
+		<input type="radio" name="stage" value="4">1st Sales/1st Users</input><br>
+		<input type="radio" name="stage" value="5">Slow/Steady Rev/User Growth</input><br>
+		<input type="radio" name="stage" value="6">Exponential Rev/User growth</input><br>
+
+	<div><h3><label for="ftes">Number of Full Time Employees (Founders + Employees)</label></h3></div>
+		<input type="number" name="ftes" min="1" max="50"><br>
+
+	<div><h3><label for="bizmodel">Busines Model</label></h3></div>
+		<input type="checkbox" name="bizmodel" value="B2C">B2C</input><br>
+		<input type="checkbox" name="bizmodel" value="B2B">B2B</input><br>
+		<input type="checkbox" name="bizmodel" value="C2B">C2B</input><br>
+		<input type="checkbox" name="bizmodel" value="C2C">C2C</input><br>
+		<input type="checkbox" name="bizmodel" value="B2G">B2G</input><br>
+
+	<div><h3><label for="industry">Industry/Vertical</label></h3></div>
+		<select name="industry">
+		<option value="advertising">Advertising</option>
+		<option value="agriculture">Agriculture</option>
+		<option value="analytics">Analytics</option>
+		<option value="automotive">Automotive</option>
+		<option value="Banking">Banking</option>
+		<option value="biotechnology">Biotechnology</option>
+		<option value="bitcoin">Bitcoin</option>
+		<option value="career / job search">Career / Job Search</option>
+		<option value="classifieds">Classifieds</option>
+		<option value="cleantech">CleanTech</option>
+		<option value="cloud computing">Cloud Computing</option>
+		<option value="consumer services">Consumer Services</option>
+		<option value="crowdfunding">Crowdfunding</option>
+		<option value="customer support">Customer Support</option>
+		<option value="dating">Dating</option>
+		<option value="drones">Drones</option>
+		<option value="e-commerce">E-Commerce</option>
+		<option value="education">Education</option>
+		<option value="email">Email</option>
+		<option value="energy">Energy</option>
+		<option value="enterprise software">Enterprise Software</option>
+		<option value="entertainment">Entertainment</option>
+		<option value="fashion">Fashion</option>
+		<option value="finance">Finance</option>
+		<option value="food & beverages">Food & Beverages</option>
+		<option value="funerals">Funerals</option>
+		<option value="gaming">Gaming</option>
+		<option value="government">Government</option>
+		<option value="hardware">Hardware</option>
+		<option value="health it">Health IT</option>
+		<option value="healthcare">Healthcare</option>
+		<option value="hospitality">Hospitality</option>
+		<option value="human resources (hr)">Human Resources (HR)</option>
+		<option value="insurance">Insurance</option>
+		<option value="internet of things">Internet of Things</option>
+		<option value="legal">Legal</option>
+		<option value="lending">Lending</option>
+		<option value="market research">Market Research</option>
+		<option value="marketing">Marketing</option>
+		<option value="media">Media</option>
+		<option value="medical devices">Medical Devices</option>
+		<option value="medical diagnostics">Medical Diagnostics</option>
+		<option value="mobile">Mobile</option>
+		<option value="music">Music</option>
+		<option value="network infrastructure">Network Infrastructure</option>
+		<option value="oil & gas">Oil & Gas</option>
+		<option value="payments">Payments</option>
+		<option value="pharmaceuticals">Pharmaceuticals</option>
+		<option value="publishing">Publishing</option>
+		<option value="real estate">Real Estate</option>
+		<option value="retail">Retail</option>
+		<option value="search">Search</option>
+		<option value="security">Security</option>
+		<option value="semiconductors">Semiconductors</option>
+		<option value="social networking">Social Networking</option>
+		<option value="software development">Software Development</option>
+		<option value="space travel">Space Travel</option>
+		<option value="storage">Storage</option>
+		<option value="technical support">Technical Support</option>
+		<option value="telecommunications">Telecommunications</option>
+		<option value="transportation">Transportation</option>
+		<option value="travel">Travel</option></select>
+		<br>
+
+	<div><h3><label for="region">Region</label></h3></div>
+		<input type="radio" name="region" value="North America" checked>North America</input><br>
+		<input type="radio" name="region" value="south america">South America</input><br>
+		<input type="radio" name="region" value="europe">Europe</input><br>
+		<input type="radio" name="region" value="asia">Asia</input><br>
+		<input type="radio" name="region" value="africa">Africa</input><br>
+		<input type="radio" name="region" value="oceania">Oceania</input><br>
+		
+	<div><h3><label for="country">Country</label></h3></div>
+		<select name="country">
+		<option value="United States of America">United States of America</option>
+		<option value="afghanistan">Afghanistan</option>
+		<option value="albania">Albania</option>
+		<option value="algeria">Algeria</option>
+		<option value="andorra">Andorra</option>
+		<option value="angola">Angola</option>
+		<option value="antigua and barbuda">Antigua and Barbuda</option>
+		<option value="argentina">Argentina</option>
+		<option value="armenia">Armenia</option>
+		<option value="australia">Australia</option>
+		<option value="austria">Austria</option>
+		<option value="azerbaijan">Azerbaijan</option>
+		<option value="bahamas">Bahamas</option>
+		<option value="bahrain">Bahrain</option>
+		<option value="bangladesh">Bangladesh</option>
+		<option value="barbados">Barbados</option>
+		<option value="belarus">Belarus</option>
+		<option value="belgium">Belgium</option>
+		<option value="belize">Belize</option>
+		<option value="benin">Benin</option>
+		<option value="bhutan">Bhutan</option>
+		<option value="bolivia">Bolivia</option>
+		<option value="bosnia and herzegovina">Bosnia and Herzegovina</option>
+		<option value="botswana">Botswana</option>
+		<option value="brazil">Brazil</option>
+		<option value="brunei darussalam">Brunei Darussalam</option>
+		<option value="bulgaria">Bulgaria</option>
+		<option value="burkina faso">Burkina Faso</option>
+		<option value="burundi">Burundi</option>
+		<option value="cabo verde">Cabo Verde</option>
+		<option value="cambodia">Cambodia</option>
+		<option value="cameroon">Cameroon</option>
+		<option value="canada">Canada</option>
+		<option value="central african republic">Central African Republic</option>
+		<option value="chad">Chad</option>
+		<option value="chile">Chile</option>
+		<option value="china">China</option>
+		<option value="colombia">Colombia</option>
+		<option value="comoros">Comoros</option>
+		<option value="congo">Congo</option>
+		<option value="costa rica">Costa Rica</option>
+		<option value="côte d'ivoire">Côte d'Ivoire</option>
+		<option value="croatia">Croatia</option>
+		<option value="cuba">Cuba</option>
+		<option value="cyprus">Cyprus</option>
+		<option value="czech republic">Czech Republic</option>
+		<option value="democratic republic of the cong">Democratic Republic of the Cong</option>
+		<option value="denmark">Denmark</option>
+		<option value="djibouti">Djibouti</option>
+		<option value="dominica">Dominica</option>
+		<option value="dominican republic">Dominican Republic</option>
+		<option value="ecuador">Ecuador</option>
+		<option value="egypt">Egypt</option>
+		<option value="el salvador">El Salvador</option>
+		<option value="equatorial guinea">Equatorial Guinea</option>
+		<option value="eritrea">Eritrea</option>
+		<option value="estonia">Estonia</option>
+		<option value="ethiopia">Ethiopia</option>
+		<option value="fiji">Fiji</option>
+		<option value="finland">Finland</option>
+		<option value="france">France</option>
+		<option value="gabon">Gabon</option>
+		<option value="gambia">Gambia</option>
+		<option value="georgia">Georgia</option>
+		<option value="germany">Germany</option>
+		<option value="ghana">Ghana</option>
+		<option value="greece">Greece</option>
+		<option value="grenada">Grenada</option>
+		<option value="guatemala">Guatemala</option>
+		<option value="guinea">Guinea</option>
+		<option value="guinea-bissau">Guinea-Bissau</option>
+		<option value="guyana">Guyana</option>
+		<option value="haiti">Haiti</option>
+		<option value="honduras">Honduras</option>
+		<option value="hungary">Hungary</option>
+		<option value="iceland">Iceland</option>
+		<option value="india">India</option>
+		<option value="indonesia">Indonesia</option>
+		<option value="iran">Iran</option>
+		<option value="iraq">Iraq</option>
+		<option value="ireland">Ireland</option>
+		<option value="israel">Israel</option>
+		<option value="italy">Italy</option>
+		<option value="jamaica">Jamaica</option>
+		<option value="japan">Japan</option>
+		<option value="jordan">Jordan</option>
+		<option value="kazakhstan">Kazakhstan</option>
+		<option value="kenya">Kenya</option>
+		<option value="kiribati">Kiribati</option>
+		<option value="kuwait">Kuwait</option>
+		<option value="kyrgyzstan">Kyrgyzstan</option>
+		<option value="lao people's democratic republic (laos)">Lao People's Democratic Republic (Laos)</option>
+		<option value="latvia">Latvia</option>
+		<option value="lebanon">Lebanon</option>
+		<option value="lesotho">Lesotho</option>
+		<option value="liberia">Liberia</option>
+		<option value="libya">Libya</option>
+		<option value="liechtenstein">Liechtenstein</option>
+		<option value="lithuania">Lithuania</option>
+		<option value="luxembourg">Luxembourg</option>
+		<option value="macedonia">Macedonia</option>
+		<option value="madagascar">Madagascar</option>
+		<option value="malawi">Malawi</option>
+		<option value="malaysia">Malaysia</option>
+		<option value="maldives">Maldives</option>
+		<option value="mali">Mali</option>
+		<option value="malta">Malta</option>
+		<option value="marshall islands">Marshall Islands</option>
+		<option value="mauritania">Mauritania</option>
+		<option value="mauritius">Mauritius</option>
+		<option value="mexico">Mexico</option>
+		<option value="micronesia (federated states of)">Micronesia (Federated States of)</option>
+		<option value="monaco">Monaco</option>
+		<option value="mongolia">Mongolia</option>
+		<option value="montenegro">Montenegro</option>
+		<option value="morocco">Morocco</option>
+		<option value="mozambique">Mozambique</option>
+		<option value="myanmar">Myanmar</option>
+		<option value="namibia">Namibia</option>
+		<option value="nauru">Nauru</option>
+		<option value="nepal">Nepal</option>
+		<option value="netherlands">Netherlands</option>
+		<option value="new zealand">New Zealand</option>
+		<option value="nicaragua">Nicaragua</option>
+		<option value="niger">Niger</option>
+		<option value="nigeria">Nigeria</option>
+		<option value="norway">Norway</option>
+		<option value="oman">Oman</option>
+		<option value="pakistan">Pakistan</option>
+		<option value="palau">Palau</option>
+		<option value="panama">Panama</option>
+		<option value="papua new guinea">Papua New Guinea</option>
+		<option value="paraguay">Paraguay</option>
+		<option value="peru">Peru</option>
+		<option value="philippines">Philippines</option>
+		<option value="poland">Poland</option>
+		<option value="portugal">Portugal</option>
+		<option value="qatar">Qatar</option>
+		<option value="republic of korea (south korea)">Republic of Korea (South Korea)</option>
+		<option value="republic of moldova">Republic of Moldova</option>
+		<option value="romania">Romania</option>
+		<option value="russian federation">Russian Federation</option>
+		<option value="rwanda">Rwanda</option>
+		<option value="saint kitts and nevis">Saint Kitts and Nevis</option>
+		<option value="saint lucia">Saint Lucia</option>
+		<option value="saint vincent and the grenadines">Saint Vincent and the Grenadines</option>
+		<option value="samoa">Samoa</option>
+		<option value="san marino">San Marino</option>
+		<option value="sao tome and principe">Sao Tome and Principe</option>
+		<option value="saudi arabia">Saudi Arabia</option>
+		<option value="senegal">Senegal</option>
+		<option value="serbia">Serbia</option>
+		<option value="seychelles">Seychelles</option>
+		<option value="sierra leone">Sierra Leone</option>
+		<option value="singapore">Singapore</option>
+		<option value="slovakia">Slovakia</option>
+		<option value="slovenia">Slovenia</option>
+		<option value="solomon islands">Solomon Islands</option>
+		<option value="somalia">Somalia</option>
+		<option value="south africa">South Africa</option>
+		<option value="south sudan">South Sudan</option>
+		<option value="spain">Spain</option>
+		<option value="sri lanka">Sri Lanka</option>
+		<option value="sudan">Sudan</option>
+		<option value="suriname">Suriname</option>
+		<option value="swaziland">Swaziland</option>
+		<option value="sweden">Sweden</option>
+		<option value="switzerland">Switzerland</option>
+		<option value="syrian arab republic">Syrian Arab Republic</option>
+		<option value="tajikistan">Tajikistan</option>
+		<option value="thailand">Thailand</option>
+		<option value="timor-leste">Timor-Leste</option>
+		<option value="togo">Togo</option>
+		<option value="tonga">Tonga</option>
+		<option value="trinidad and tobago">Trinidad and Tobago</option>
+		<option value="tunisia">Tunisia</option>
+		<option value="turkey">Turkey</option>
+		<option value="turkmenistan">Turkmenistan</option>
+		<option value="tuvalu">Tuvalu</option>
+		<option value="uganda">Uganda</option>
+		<option value="ukraine">Ukraine</option>
+		<option value="united arab emirates">United Arab Emirates</option>
+		<option value="united kingdom of great britain and northern ireland">United Kingdom of Great Britain and Northern Ireland</option>
+		<option value="united republic of tanzania">United Republic of Tanzania</option>
+		<option value="uruguay">Uruguay</option>
+		<option value="uzbekistan">Uzbekistan</option>
+		<option value="vanuatu">Vanuatu</option>
+		<option value="venezuela">Venezuela</option>
+		<option value="vietnam">Vietnam</option>
+		<option value="yemen">Yemen</option>
+		<option value="zambia">Zambia</option>
+		<option value="zimbabwe">Zimbabwe</option>
+		</select><br>
+
+	<div><h3><label for="profit">Is this for profit or non-profit</label></h3></div>
+		<input type="radio" name="profit" value="forprofit" checked>For Profit</input><br>
+		<input type="radio" name="profit" value="nonprofit">Not-For-Profit</input><br>
+
+	<div><h3><label for="office">Do you have office space? (garages count)</label></h3></div>
+		<input type="radio" name="office" value="needspace" checked>Yes, we have a space</input><br>
+		<input type="radio" name="office" value="havespace">No, we need a space</input><br>
+
+	<div><h3><label for="runway">What is the bare minimum amount of money ($) you need for a year of runway</label></h3></div>
+		<input type="number" name="runway" min="1" max="10000000"><br>
+
+
+	<div><h3><label for="founder1">Founder1:</label></h3></div>
+		<div><h4><label for="founder1sex">Sex</label></h4></div>
+			<input type="radio" name="founder1sex" value="M" checked>Female</input><br>
+			<input type="radio" name="founder1sex" value="F">Male</input><br>
+		<div><h4><label for="founder1race">Race</label></h4></div>
+			<input type="checkbox" name="founder1race" value="Caucasian">Caucasian</input><br>
+			<input type="checkbox" name="founder1race" value="Black or Afro-Caribbean">Black or Afro-Caribbean</input><br>
+			<input type="checkbox" name="founder1race" value="Latino or Hispanic">Latino or Hispanic</input><br>
+			<input type="checkbox" name="founder1race" value="East Asian">East Asian</input><br>
+			<input type="checkbox" name="founder1race" value="South Asian">South Asian</input><br>
+			<input type="checkbox" name="founder1race" value="Middle Eastern">Middle Eastern</input><br>
+			<input type="checkbox" name="founder1race" value="Native American">Native American</input><br>
+		<div><h4><label for="founder1age">Age</label></h4></div>
+			<input type="number" name="founder1age" min="13" max="100"><br>
+		<div><h4><label for="founder1mom">Are you a mom?</label></h4></div>
+			<input type="radio" name="founder1mom" value="Mom" checked>Yes!</input><br>
+			<input type="radio" name="founder1mom" value="Notmom">No/Not even possible</input><br>
+
+				<div><h3><label for="founder2">Founder2:</label></h3></div>
+		<div><h4><label for="founder2sex">Sex</label></h4></div>
+			<input type="radio" name="founder2sex" value="M" checked>Female</input><br>
+			<input type="radio" name="founder2sex" value="F">Male</input><br>
+		<div><h4><label for="founder2race">Race</label></h4></div>
+			<input type="checkbox" name="founder2race" value="Caucasian">Caucasian</input><br>
+			<input type="checkbox" name="founder2race" value="Black or Afro-Caribbean">Black or Afro-Caribbean</input><br>
+			<input type="checkbox" name="founder2race" value="Latino or Hispanic">Latino or Hispanic</input><br>
+			<input type="checkbox" name="founder2race" value="East Asian">East Asian</input><br>
+			<input type="checkbox" name="founder2race" value="South Asian">South Asian</input><br>
+			<input type="checkbox" name="founder2race" value="Middle Eastern">Middle Eastern</input><br>
+			<input type="checkbox" name="founder2race" value="Native American">Native American</input><br>
+		<div><h4><label for="founder2age">Age</label></h4></div>
+			<input type="number" name="founder2age" min="13" max="100"><br>
+
+	<div><h3><label for="founder3">Founder3:</label></h3></div>
+		<div><h4><label for="founder3sex">Sex</label></h4></div>
+			<input type="radio" name="founder3sex" value="M" checked>Female</input><br>
+			<input type="radio" name="founder3sex" value="F">Male</input><br>
+		<div><h4><label for="founder3race">Race</label></h4></div>
+			<input type="checkbox" name="founder3race" value="Caucasian">Caucasian</input><br>
+			<input type="checkbox" name="founder3race" value="Black or Afro-Caribbean">Black or Afro-Caribbean</input><br>
+			<input type="checkbox" name="founder3race" value="Latino or Hispanic">Latino or Hispanic</input><br>
+			<input type="checkbox" name="founder3race" value="East Asian">East Asian</input><br>
+			<input type="checkbox" name="founder3race" value="South Asian">South Asian</input><br>
+			<input type="checkbox" name="founder3race" value="Middle Eastern">Middle Eastern</input><br>
+			<input type="checkbox" name="founder3race" value="Native American">Native American</input><br>
+		<div><h4><label for="founder3age">Age</label></h4></div>
+			<input type="number" name="founder3age" min="13" max="100"><br>
+
+<br><input type="submit"/>
+
+
+</form>
+</body>
+</html>
